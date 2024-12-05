@@ -3,8 +3,8 @@
   "module": "dist/bundle.esm.js",
   "browser": "dist/bundle.umd.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js --mode production",
-    "start": "webpack serve --config webpack.config.js --mode development",
+    "build": "webpack --config webpack.config.prod.js --mode production",
+    "start": "webpack serve --config webpack.config.dev.js --mode development",
     "watch": "webpack --watch --config webpack.config.js --mode development",
     "test": "jest"
   },
@@ -21,5 +21,7 @@
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.0.4"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@babel/preset-env": "^7.26.0"
+  }
 }

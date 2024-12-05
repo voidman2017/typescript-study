@@ -15,10 +15,17 @@ const commonConfig = {
   resolve: {
     extensions: [".ts", ".js"],
   },
+  devServer: {
+    static: {
+      directory: path.join(__dirname, "dist"),
+    },
+    historyApiFallback: true,
+  },
   target: ["web", "es6"],
 };
 
 const umdConfig = {
+  name: "umd",
   ...commonConfig,
   output: {
     filename: "bundle.umd.js",
@@ -29,8 +36,8 @@ const umdConfig = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./src/index.html", // 模板文件路径
-      filename: "index.umd.html",
+      template: "./src/index.html",
+      filename: "index.html",
       inject: "body",
       scriptLoading: "blocking",
     }),
@@ -38,6 +45,7 @@ const umdConfig = {
 };
 
 const esmConfig = {
+  name: "esm",
   ...commonConfig,
   output: {
     filename: "bundle.esm.js",
@@ -51,8 +59,8 @@ const esmConfig = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./src/index.html", // 模板文件路径
-      filename: "index.esm.html",
+      template: "./src/index.html",
+      filename: "index.html",
       inject: "body",
       scriptLoading: "module",
     }),
@@ -60,6 +68,7 @@ const esmConfig = {
 };
 
 const commonJsConfig = {
+  name: "commonjs",
   ...commonConfig,
   output: {
     filename: "bundle.cjs.js",
@@ -70,4 +79,4 @@ const commonJsConfig = {
   },
 };
 
-module.exports = [umdConfig, esmConfig, commonJsConfig];
+module.exports = { umdConfig, esmConfig, commonJsConfig };
