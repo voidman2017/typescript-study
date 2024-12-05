@@ -20,7 +20,7 @@ class MyClass {
         @Rule({
             type: "object",
             properties:
-                { name: { type: 'string', message: "xxxxxxxxxxxxxxx - name is not a string" } }
+                { name: { required: true } }
         })
         arg4?: any
     ) {
@@ -41,7 +41,7 @@ class MyClass {
             {
                 type: "object",
                 properties:
-                    { name: { type: 'string', message: "xxxxxxxxxxxxxxx - name is not a string" } }
+                    { name: { require: true, type: 'string', message: "xxxxxxxxxxxxxxx - name is not a string" } }
             }
         ]
         let errorMsg;
@@ -63,11 +63,11 @@ class MyClass {
 }
 
 const myClass = new MyClass();
-myClass.method(123, 'abc', 20, { name: '1' }); // 正常执行
-myClass.method(123, 'abc', 15, { name: 1 }); // 抛出类型错误
-myClass.method2(123, 'abc', 15, { name: 1 }); // 抛出类型错误
-myClass.method(123, '123', 15); // 抛出正则表达式匹配错误
-myClass.method(123, 'abc'); // 抛出缺少必需参数的错误
+myClass.method(123, 'abc', 20, { }); // 正常执行
+// myClass.method(123, 'abc', 15, { name: 1 }); // 抛出类型错误
+// myClass.method2(123, 'abc', 15, { name: 1 }); // 抛出类型错误
+// myClass.method(123, '123', 15); // 抛出正则表达式匹配错误
+// myClass.method(123, 'abc'); // 抛出缺少必需参数的错误
 
 
 const groups = [
@@ -99,7 +99,7 @@ const groups = [
     }
 ]
 
-groups.forEach(item => {
-    const result = validate(item.rule, item.value)
-    console.log('===debug=== result: ', item, result);
-})
+// groups.forEach(item => {
+//     const result = validate(item.rule, item.value)
+//     console.log('===debug=== result: ', item, result);
+// })
