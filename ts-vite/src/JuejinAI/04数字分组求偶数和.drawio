@@ -1,0 +1,79 @@
+<mxfile host="65bd71144e">
+    <diagram name="第 1 页" id="6HqXooCNs9hSZixjxbYp">
+        <mxGraphModel dx="646" dy="893" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="15" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="加法想要获得一个偶数，可以是：&lt;br&gt;奇数+奇数 或 偶数+偶数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="519" y="-305" width="198" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="453" y="-207" width="70" height="98" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="1, 2, 3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="17">
+                    <mxGeometry width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="奇数：2&lt;br&gt;偶数：1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="17">
+                    <mxGeometry x="4.5" y="57" width="61" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="622" y="-207" width="70" height="98" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="4, 5, 6" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="18">
+                    <mxGeometry width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="奇数：1&lt;br&gt;偶数：2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="18">
+                    <mxGeometry x="4.5" y="57" width="61" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="477" y="-79" width="189" height="89" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="奇数：（2 * 2） + （1 * 1）= 5&lt;br&gt;偶数： （2 * 1） + （1 * 2） = 4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="19">
+                    <mxGeometry y="48" width="189" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="14，16，25，34，36&lt;br&gt;15，35，24，26" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="19">
+                    <mxGeometry x="12" width="172" height="39" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="433" y="105" width="475" height="89" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="奇数：（5 * 1） + （4 * 2）= 13&lt;br&gt;偶数： （5 * 2） + （4 * 1） = 14" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="20">
+                    <mxGeometry x="103.64884393063582" y="45" width="195" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="148，168，258，348，368，157，357，247，267，159，359，249，269&lt;br&gt;147，167，257，347，367，149，169，259，349，369，&amp;nbsp;158，358，248，268" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="20">
+                    <mxGeometry x="16.473988439306353" width="458.52601156069363" height="38" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="13" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="795" y="-207" width="70" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="7, 8, 9" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="24">
+                    <mxGeometry width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="奇数：2&lt;br&gt;偶数：1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="24">
+                    <mxGeometry x="4.5" y="59" width="61" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="group;dashed=1;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="319" y="-209" width="70" height="98" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="0" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="27">
+                    <mxGeometry width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="奇数：0&lt;br&gt;偶数：1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="27">
+                    <mxGeometry x="4.5" y="57" width="61" height="41" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

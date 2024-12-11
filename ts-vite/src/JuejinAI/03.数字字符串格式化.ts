@@ -18,6 +18,7 @@
 输入：s = "987654321"
 输出：'987,654,321'
 
+【tag】： 字符串
 */
 
 export function solution(s: string): string {

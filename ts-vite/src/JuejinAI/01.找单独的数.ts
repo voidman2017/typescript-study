@@ -30,6 +30,8 @@
 0 ≤ cards[i] ≤ 1000
 班级人数为奇数
 除了一个数字卡片只出现一次外，其余每个数字卡片都恰好出现两次
+
+【tag】： 数组、异或
 */
 
 export function solution1(cards: number[]): number {
