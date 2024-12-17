@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@hediet/debug-visualizer-data-extraction':
+        specifier: ^0.14.0
+        version: 0.14.0
       '@vitest/ui':
         specifier: ^2.1.8
         version: 2.1.8(vitest@1.6.0)
@@ -416,6 +419,9 @@ packages:
   '@eslint/js@8.57.1':
     resolution: {integrity: sha512-d9zaMRSTIKDLhctzH12MtXvJKSSUhaHcjV+2Z+GK+EEY7XKpP5yR4x+N3TAcHTcu963nIr+TMcCb4DBCYX1z6Q==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+
+  '@hediet/debug-visualizer-data-extraction@0.14.0':
+    resolution: {integrity: sha512-J2eu4U+1SVNPYxhbWT6iKy9tA8DX0iDNoFipST/mJt503T67Z7H24wRBJyjHdk4ooohVNrEW2qsTZWMqWSFbcQ==}
 
   '@humanwhocodes/config-array@0.13.0':
     resolution: {integrity: sha512-DZLEEqFWQFiyK6h5YIeynKx7JlvCYWL0cImfSRXZ9l4Sg2efkFGTuFf6vzXjK1cq6IYkU+Eg/JizXw+TD2vRNw==}
@@ -3100,6 +3106,8 @@ snapshots:
       - supports-color
 
   '@eslint/js@8.57.1': {}
+
+  '@hediet/debug-visualizer-data-extraction@0.14.0': {}
 
   '@humanwhocodes/config-array@0.13.0':
     dependencies:
